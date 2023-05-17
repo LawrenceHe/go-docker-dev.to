@@ -3,7 +3,7 @@ FROM golang:alpine
 MAINTAINER Maintainer
 
 ENV GIN_MODE=release
-ENV PORT=3004
+ENV PORT=8080
 
 
 WORKDIR /go/src/go-docker-dev.to
